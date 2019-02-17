@@ -1,0 +1,6 @@
+endpoints:
+  exec-stream:
+    direction: out
+    command: ssh ec2-user@13.236.184.236  -i c:\Users\Administrator\.ssh\ne163-key-pair-01.pem 'tail -F /var/log/test.log'
+    repeat: true
+#    command: cmd.exe /c tail -f c:\tmp\log.txt
